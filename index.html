@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Calculadora de IMC</h1>
+    <input id="peso" type="number" placeholder="Insira o seu peso em kg">
+    <input id="altura" type="number" placeholder="Insira a sua altura em metros">
+    <button onclick="calcularIMC()">Calcular</button>
+    <p id="resultadoIMC"></p>
+
+    <h1>Calculadora de ICMS</h1>
+    <input id="precoCusto" type="number" placeholder="Insira o preço de custo">
+    <input id="taxaICMS" type="number" placeholder="Insira a taxa de ICMS">
+    <button onclick="calcularICMS()">Calcular</button>
+    <p id="resultadoICMS"></p>
+
+    <h1>Verificador de Múltiplos</h1>
+    <input id="num1" type="number" placeholder="Insira o primeiro número">
+    <input id="num2" type="number" placeholder="Insira o segundo número">
+    <button onclick="verificarMultiplos()">Verificar</button>
+    <p id="resultadoMultiplos"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
